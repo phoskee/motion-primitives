@@ -33,7 +33,7 @@ const MouseIcon = (props: SVGProps<SVGSVGElement>) => {
 export function Cursor2() {
   return (
     <div className='py-12'>
-      <div className='overflow-hidden rounded-[12px] bg-white p-2 shadow-md dark:bg-black'>
+      <div className='overflow-hidden rounded-[12px] bg-white shadow-md dark:bg-black'>
         <Cursor
           attachToParent
           variants={{
@@ -45,7 +45,7 @@ export function Cursor2() {
             ease: 'easeInOut',
             duration: 0.15,
           }}
-          className='left-12 top-4'
+          className='left-[62px] top-[28px]'
         >
           <div>
             <MouseIcon className='h-6 w-6' />
